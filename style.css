@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+body {
+    display: block;
+    margin: 0;
+    background-color: #FFE8D8; 
+}
+
+#navbar { 
+    background-color: #7CA31B;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.nav li {
+  display: inline-block;
+  line-height: 2.5;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:#324376;
+    padding: 0px 20px;   
+}
+
+.nav li a:hover { 
+  background-color: yellow;
+  color: orange;
+  transition: all.5s;
+}
+
+
+
